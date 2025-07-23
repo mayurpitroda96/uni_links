@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.example.tryorderbot.uni_links"
+
     compileSdkVersion 28
 
     defaultConfig {
